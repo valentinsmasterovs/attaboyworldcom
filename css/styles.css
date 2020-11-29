@@ -3,19 +3,35 @@
 }
 
 #navigation-main{
-	margin-top: 24px;
+	margin-top: 124px;
+	margin-bottom: 24px;
 }
+
 
 @media (max-width: 800px) {
   
   #navigation-main{
-	font-size: 42px;
+	font-size: 36px;
 	}
+
+#content-1{
+	font-size: 42px;
+}
+
 }
 
 @media (min-width: 801px) {
   
   #navigation-main{
-	font-size: 24px;
+	font-size: 36px;
 	}  
+
+#content-1{
+	font-size: 24px;
+}
+}
+
+body{
+	background-color: black;
+	color: white;
 }
