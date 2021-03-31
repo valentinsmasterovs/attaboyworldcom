@@ -15,12 +15,19 @@
 
 		<center><a href="https://attaboyworld.com"><img style="width: 420px; margin-top: 4px; margin-bottom: 32px; " src="images/ab-logo-main.png"></img></a></center>
 
-	<div id="about-button">ABOUT</div>
+	<center>
+		<table>
+			<tr>
+				<td><div id="about-button">ABOUT</div></td>
+			</tr>
+		</table>
+	</center>
 
 	<div id="about-text">this is about</div>
 
 
 <script>
+  	$("#about-button").hide();
 	$("#about-button").click(function(){
   		$("#about-text").toggle();
 	});
